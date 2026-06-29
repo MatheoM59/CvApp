@@ -1,0 +1,13 @@
+.titleContainer {
+  margin-bottom: var(--spacing-lg);
+  padding-bottom: var(--spacing-md);
+  border-bottom: 2px solid var(--secondary);
+}
+
+.title {
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0;
+  line-height: 1.2;
+}

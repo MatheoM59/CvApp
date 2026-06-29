@@ -1,0 +1,50 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  background-color: var(--bg-light);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  margin-bottom: var(--spacing-lg);
+}
+
+.dateGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.dateGroup > div {
+  flex: 1;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+.buttonGroup button {
+  flex: 1;
+  min-width: 100px;
+}
+
+@media (max-width: 768px) {
+  .formContainer {
+    padding: var(--spacing-md);
+  }
+
+  .dateGroup {
+    flex-direction: column;
+  }
+
+  .buttonGroup {
+    flex-direction: column;
+  }
+
+  .buttonGroup button {
+    width: 100%;
+  }
+}
